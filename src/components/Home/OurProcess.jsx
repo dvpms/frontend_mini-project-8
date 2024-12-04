@@ -1,8 +1,8 @@
 import React from "react";
-import SideImg from "../assets/images/HomePage/side-image.svg";
-import icon1 from "../assets/images/HomePage/lamp.svg";
-import icon2 from "../assets/images/HomePage/exec.svg";
-import icon3 from "../assets/images/HomePage/rocket.svg";
+import SideImg from "../../assets/images/HomePage/side-image.svg";
+import icon1 from "../../assets/images/HomePage/lamp.svg";
+import icon2 from "../../assets/images/HomePage/exec.svg";
+import icon3 from "../../assets/images/HomePage/rocket.svg";
 
 const OurProcess = () => {
   return (

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import quoteIcon from '../assets/images/HomePage/quote.svg';
-import arrowRight from '../assets/arrowRight-page.svg';
-import arrowLeft from '../assets/arrowLeft-page.svg';
+import quoteIcon from '../../assets/images/HomePage/quote.svg';
+import arrowRight from '../../assets/arrowRight-page.svg';
+import arrowLeft from '../../assets/arrowLeft-page.svg';
 
 // Data Testimonial
 const testimonialsData = [

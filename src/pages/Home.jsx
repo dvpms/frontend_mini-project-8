@@ -1,9 +1,9 @@
 import React from "react";
-import Portfolio from "../components/Portfolio";
-import Testimonials from "../components/Testimonials";
-import Services from "../components/Services";
-import OurProcess from "../components/OurProcess";
-import PastClients from "../components/PastClients";
+import Portfolio from "../components/Home/Portfolio";
+import Testimonials from "../components/Home/Testimonials";
+import Services from "../components/Home/Services";
+import OurProcess from "../components/Home/OurProcess";
+import PastClients from "../components/Home/PastClients";
 
 const Home = () => {
   return (

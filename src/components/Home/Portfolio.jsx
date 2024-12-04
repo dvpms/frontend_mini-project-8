@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Work from "../assets/images/image.png";
+import Work from "../../assets/images/image.png";
 
 const Portfolio = () => {
   const works = ["1", "2", "3", "4", "5", "6"];
@@ -20,30 +20,31 @@ const Portfolio = () => {
           <h2 className="text-3xl font-bold">Our Work So Far</h2>
 
           {/* Filter Buttons */}
-          <div className="text-center mb-8 font-semibold tex">
+          <div className="text-center mb-8 font-semibold space-x-4">
             <button
-              className="px-4 py-2 mx-2 hover:underline focus:underline"
+              className="py-2 hover:underline focus:underline "
+
               onClick={() => setSelectedCategory("All")}
             >
-              All
+              ALL
             </button>
             <button
-              className="px-4 py-2 mx-2 hover:underline focus:underline"
+              className="py-2 hover:underline focus:underline"
               onClick={() => setSelectedCategory("Branding")}
             >
-              Branding
+              BRANDING
             </button>
             <button
-              className="px-4 py-2 mx-2 hover:underline focus:underline"
+              className="py-2 hover:underline focus:underline"
               onClick={() => setSelectedCategory("Illustration")}
             >
-              Illustration
+              ILLUSTRATION
             </button>
             <button
-              className="px-4 py-2 mx-2 hover:underline focus:underline"
+              className="py-2 hover:underline focus:underline"
               onClick={() => setSelectedCategory("Product Design")}
             >
-              Product Design
+              PRODUCT DESIGN
             </button>
           </div>
         </div>
