@@ -26,7 +26,7 @@ const servicesData = [
   },
 ];
 const Services = () => {
-  return (
+  return ( 
     <div className="max-w-6xl mx-auto py-12 px-6 space-y-36">
       <div className="flex justify-center space-x-11">
         {servicesData.map((service, index) => (
@@ -43,9 +43,9 @@ const Services = () => {
         <p className="text-6xl font-bold text-right
         ">
           <span className="text-yellow-400">hello</span>.</p>
-        <p className="text-3xl text-right font-bold">Award winning <br /> agency specializing <br /> in creative design</p>
+        <p className="text-3xl text-right font-bold pe-12">Award winning <br /> agency specializing <br /> in creative design</p>
         <div className="flex flex-col">
-          <p className="text-xl">We help businesses grow, launch products and build enduring relationships with our communities.</p>
+          <p className="text-lg">We help businesses grow, launch products and build enduring relationships with our communities.</p>
           <a href="http://
           " target="_blank" rel="noopener noreferrer" className="text-black underline text-xl font-semibold mt-5"> OUR INFO</a>
 
