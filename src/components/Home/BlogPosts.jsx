@@ -23,7 +23,7 @@ const BlogPosts = () => {
     },
   ];
   return (
-    <div className="w-full px-20 py-24 h-screen bg-white">
+    <div className="w-full px-20 py-24 bg-white">
       <div className="title flex justify-between items-center px-12">
         <h2 className="text-4xl font-bold">
           Check out our interesting articles
