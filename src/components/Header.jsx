@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Hero from "../assets/images/Hero-Home.png";
+import Hero from "../assets/images/HomePage/Hero-Home.png";
 
 
 const Header = () => {

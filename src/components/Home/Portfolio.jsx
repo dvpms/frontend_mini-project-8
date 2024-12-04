@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Work from "../../assets/images/image.png";
+import Work from "../../assets/images/HomePage/image.png";
 
 const Portfolio = () => {
   const works = ["1", "2", "3", "4", "5", "6"];

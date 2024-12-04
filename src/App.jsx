@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Header from "./components/Header";
 import "./index.css";
 import Footer from "./components/Footer";
+import Banner from "./components/Banner";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
+        <Banner/>
         <Footer/>
       </div>
     </Router>
