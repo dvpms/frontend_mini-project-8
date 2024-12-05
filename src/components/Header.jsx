@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Hero from "../assets/images/HomePage/Hero-Home.png";
+import { Link } from "react-router-dom";
 
 
 const Header = () => {
@@ -27,10 +27,7 @@ const Header = () => {
 
   return (
     <header
-      className={`relative w-full h-screen bg-cover bg-[#FDCA09] bg-center text-white`}
-      style={{
-        backgroundImage: `url(${Hero})`,
-      }}
+      className={`text-white`}
     >
       {/* Navbar */}
       <nav
@@ -69,55 +66,51 @@ const Header = () => {
             } transition-all duration-300`}
           >
             <li>
-              <a
-                href="#home"
+              <Link
+                to="/"
                 className="text-lg font-medium text-black hover:text-gray-400"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#about"
+              <Link
+                to="/about"
                 className="text-lg font-medium text-black hover:text-gray-400"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#about"
+              <Link
+                to="/contact"
                 className="text-lg font-medium text-black hover:text-gray-400"
               >
                 Contact
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#about"
+              <Link
+                to="/blog"
                 className="text-lg font-medium text-black hover:text-gray-400"
               >
                 Blogs
-              </a>
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/ourworks"
+                className="text-lg font-medium text-black hover:text-gray-400"
+              >
+                Our Works
+              </Link>
             </li>
           </ul>
         </div>
       </nav>
-
-      {/* Hero Content */}
-      <div className="flex flex-col justify-center items-start ms-52 text-center h-full">
-        <h2 className="text-8xl font-bold text-left mb-4 w-[770px] text-black">
-          Let’s Create Something Great Together.
-        </h2>
-        <a
-          href="#book-call"
-          className="px-6 py-2 text-black text-lg rounded-lg hover:bg-orange-600 transition-all duration-300"
-        >
-          Book a Free Call →
-        </a>
-      </div>
     </header>
   );
 };
 
 export default Header;
+

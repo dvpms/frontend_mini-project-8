@@ -5,6 +5,8 @@ import Header from "./components/Header";
 import "./index.css";
 import Footer from "./components/Footer";
 import Banner from "./components/Banner";
+import OurWorks from "./pages/OurWorks";
+import OurWorksDetail from "./pages/OurWorksDetail";
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/ourworks" element={<OurWorks />} />
+          <Route path="/ourworks/detail/:id" element={<OurWorksDetail />} />
         </Routes>
         <Banner/>
         <Footer/>

@@ -28,7 +28,7 @@ const BlogPosts = () => {
         <h2 className="text-4xl font-bold">
           Check out our interesting articles
         </h2>
-        <Link to="/Blog" className="underline">SEE ALL</Link>
+        <Link to="/Blog" className="underline font-semibold">SEE ALL</Link>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 py-16 px-14">
         {Blogs.map((blog) => (

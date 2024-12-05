@@ -1,16 +1,17 @@
 // src/components/PastClients.jsx
 
 import React from "react";
-import Spotify from "../../assets/images/HomePage/spotify.svg";
-import Dropbox from "../../assets/images/HomePage/Dropbox.svg";
-import Google from "../../assets/images/HomePage/Google.svg";
-import Airbnb from "../../assets/images/HomePage/Airbnb.svg";
-import Artwork from "../../assets/images/HomePage/Artwork.svg";
-import DHL from "../../assets/images/HomePage/dhl.svg";
-import Tesla from "../../assets/images/HomePage/tesla.svg";
-import Stripe from "../../assets/images/HomePage/stripe.svg";
 
+import Spotify from "../assets/images/PastClients/spotify.svg";
+import Dropbox from "../assets/images/PastClients/Dropbox.svg";
+import Google from "../assets/images/PastClients/Google.svg";
+import Airbnb from "../assets/images/PastClients/Airbnb.svg";
+import Artwork from "../assets/images/PastClients/Artwork.svg";
+import DHL from "../assets/images/PastClients/dhl.svg";
+import Tesla from "../assets/images/PastClients/tesla.svg";
+import Stripe from "../assets/images/PastClients/stripe.svg";
 
+ 
 const PastClients = () => {
   const clients = [
     Spotify,
@@ -24,8 +25,8 @@ const PastClients = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <div className="grid grid-cols-4 gap-0 sm:grid-cols-2 lg:grid-cols-4 gap-x-0 gap-y-0 p-40">
+    <div className="mx-auto px-4 py-8">
+      <div className="grid grid-cols-4 gap-0 sm:grid-cols-2 lg:grid-cols-4 gap-x-0 gap-y-0">
         {clients.map((client, index) => (
           <div
             key={index}
