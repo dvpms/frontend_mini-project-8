@@ -1,23 +1,36 @@
 // src/components/PastClients.jsx
 
 import React from "react";
-import Spotify from "../assets/images/HomePage/spotify.svg";
 
+import Spotify from "../assets/images/PastClients/spotify.svg";
+import Dropbox from "../assets/images/PastClients/Dropbox.svg";
+import Google from "../assets/images/PastClients/Google.svg";
+import Airbnb from "../assets/images/PastClients/Airbnb.svg";
+import Artwork from "../assets/images/PastClients/Artwork.svg";
+import DHL from "../assets/images/PastClients/dhl.svg";
+import Tesla from "../assets/images/PastClients/tesla.svg";
+import Stripe from "../assets/images/PastClients/stripe.svg";
+
+ 
 const PastClients = () => {
   const clients = [
-    Spotify, "https://via.placeholder.com/150", 
-    "https://via.placeholder.com/150", "https://via.placeholder.com/150", 
-    "https://via.placeholder.com/150", "https://via.placeholder.com/150", 
-    "https://via.placeholder.com/150", "https://via.placeholder.com/150"
+    Spotify,
+    Dropbox,
+    Tesla,
+    Artwork,
+    Google,
+    Stripe,
+    DHL,
+    Airbnb,
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <div className="grid grid-cols-4 gap-0 sm:grid-cols-2 lg:grid-cols-4 gap-x-0 gap-y-0 p">
+    <div className="mx-auto px-4 py-8">
+      <div className="grid grid-cols-4 gap-0 sm:grid-cols-2 lg:grid-cols-4 gap-x-0 gap-y-0">
         {clients.map((client, index) => (
           <div
             key={index}
-            className="relative border-1 border-gray-300" // Add border for each image
+            className="relative border-1 border-gray-300 p-5" // Add border for each image
           >
             <img
               src={client}
