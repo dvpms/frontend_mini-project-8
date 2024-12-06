@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { FixedSizeList as List } from "react-window";
 import Hero from "../assets/images/BlogList/Hero.png";
+import { Link } from "react-router-dom";
 
 const blogPosts = [
   {
@@ -113,7 +113,6 @@ const blogPosts = [
   },
 ];
 
-
 const BlogList = () => {
   const [showAllPosts, setShowAllPosts] = useState(false);
 
@@ -147,12 +146,12 @@ const BlogList = () => {
                   />
                   <h3 className="text-lg font-bold mb-2">{post.title}</h3>
                   <p className="text-gray-600 mb-4">{post.description}</p>
-                  <a
-                    href={`/blog/${post.id}`}
-                    className="text-blue-600 hover:text-blue-800"
+                  <Link
+                    to={`/blog/detail/${post.id}`}
+                    className="text-black hover:text-gray-500"
                   >
                     Read More &rarr;
-                  </a>
+                  </Link>
                 </div>
               ))
             : blogPosts.map((post) => (
@@ -167,12 +166,12 @@ const BlogList = () => {
                   />
                   <h3 className="text-lg font-bold mb-2">{post.title}</h3>
                   <p className="text-gray-600 mb-4">{post.description}</p>
-                  <a
-                    href={`/blog/${post.id}`}
-                    className="hover:text-gray-700"
+                  <Link
+                    to={`/blog/detail/${post.id}`}
+                    className="text-black hover:text-gray-500"
                   >
                     Read More &rarr;
-                  </a>
+                  </Link>
                 </div>
               ))}
         </div>
