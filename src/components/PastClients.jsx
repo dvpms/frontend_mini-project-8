@@ -1,8 +1,8 @@
 // src/components/PastClients.jsx
 
 import React from "react";
+import Spotify from "../assets/images/PastClients/Spotify.svg";
 
-import Spotify from "../assets/images/PastClients/spotify.svg";
 import Dropbox from "../assets/images/PastClients/Dropbox.svg";
 import Google from "../assets/images/PastClients/Google.svg";
 import Airbnb from "../assets/images/PastClients/Airbnb.svg";
