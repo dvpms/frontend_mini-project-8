@@ -70,7 +70,7 @@ const OurWorks = () => {
                 </div>
               </Link>
             ))}
-          </div>{" "}
+          </div>
         </div>
       </div>
       <div className="p-40">
