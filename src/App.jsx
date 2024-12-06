@@ -10,6 +10,7 @@ import OurWorksDetail from "./pages/OurWorksDetail";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import BlogList from "./pages/BlogList";
+import BlogDetail from "./pages/BlogDetail";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/about" element={<AboutUs/>} />
           <Route path="/contact" element={<ContactUs/>} />
           <Route path="/blog" element={<BlogList/>} />
+          <Route path="/blog/detail/:id" element={<BlogDetail/>} />
         </Routes>
         <Banner/>
         <Footer/>
