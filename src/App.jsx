@@ -8,6 +8,7 @@ import Banner from "./components/Banner";
 import OurWorks from "./pages/OurWorks";
 import OurWorksDetail from "./pages/OurWorksDetail";
 import AboutUs from "./pages/AboutUs";
+import ContactUs from "./pages/ContactUs";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/ourworks" element={<OurWorks />} />
           <Route path="/ourworks/detail/:id" element={<OurWorksDetail />} />
           <Route path="/about" element={<AboutUs/>} />
+          <Route path="/contact" element={<ContactUs/>} />
         </Routes>
         <Banner/>
         <Footer/>
