@@ -8,8 +8,8 @@ import Google from "../assets/images/PastClients/Google.svg";
 import Airbnb from "../assets/images/PastClients/Airbnb.svg";
 import Artwork from "../assets/images/PastClients/Artwork.svg";
 import DHL from "../assets/images/PastClients/dhl.svg";
-import Tesla from "../assets/images/PastClients/tesla.svg";
-import Stripe from "../assets/images/PastClients/stripe.svg";
+import Tesla from "../assets/images/PastClients/Tesla.svg";
+import Stripe from "../assets/images/PastClients/Stripe.svg";
 
  
 const PastClients = () => {
