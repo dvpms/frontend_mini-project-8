@@ -82,12 +82,15 @@ const ContactUs = () => {
                   New York, USA <br />
                   7626 W. 18th St, <br />
                   Massapequa, NY 11758 <br />
+                  <span className="text-blue-600 hover:text-blue-800">
+
                   info@bsgny.com <br />
+                  </span>
                   (543)890 98
                 </p>
                 <a
                   href="#"
-                  className="block mt-4 text-blue-600 hover:text-blue-800"
+                  className="block mt-4 "
                 >
                   GET DIRECTIONS &rarr;
                 </a>
